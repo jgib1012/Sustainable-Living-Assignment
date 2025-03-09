@@ -1,0 +1,163 @@
+/* Global Background, Colors, and Widths */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f0f7f0;
+    color: #333;
+}
+
+header, nav ul, #content-wrapper {
+    width: 90%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Logo */
+a {
+    color: #008000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #006600;
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    position: relative;
+    padding: 20px 0 20px 60px;
+    background-color: #e7ffe7;
+    margin-bottom: 10px;
+}
+
+header img#logo {
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+header h1 {
+    color: #008000;
+}
+
+/* Navbar */
+nav {
+    background-color: #008000;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    padding: 1rem;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #006600;
+    color: #fff;
+}
+
+/* Content Wrapper */
+#content-wrapper {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Main Content */
+main {
+    flex: 3;
+}
+
+/* Home Page Main Image */
+main article img {
+    border: 3px double #333;
+    float: left;
+    margin: 0 15px 15px 0;
+    max-width: 100%;
+}
+
+main h2 {
+    color: #008000;
+    margin-bottom: 15px;
+}
+
+/* Home page Bottom Columns */
+.three-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.three-columns div {
+    flex: 1;
+    min-width: 200px;
+    background-color: #e7ffe7;
+    border: 2px solid #008000;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.three-columns h2 {
+    background-color: #008000;
+    color: white;
+    padding: 5px;
+    border-radius: 8px 8px 0 0;
+    margin: -10px -10px 10px -10px;
+}
+
+.three-columns img {
+    border: 3px double #333;
+    margin: 0 auto 10px;
+    display: block;
+    max-width: 100%;
+}
+
+/* Sidebar */
+aside {
+    flex: 1;
+    min-width: 250px;
+}
+
+aside h2 {
+    color: #008000;
+    margin-bottom: 15px;
+}
+
+aside section {
+    background-color: #e7ffe7;
+    border: 1px solid #008000;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+aside h3 {
+    color: #006600;
+    margin-bottom: 5px;
+}
